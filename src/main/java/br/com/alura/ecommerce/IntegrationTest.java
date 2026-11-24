@@ -3,7 +3,7 @@ package br.com.alura.ecommerce;
 import com.google.genai.Client;
 import com.google.genai.types.GenerateContentResponse;
 
-public class TestaIntegracao {
+public class IntegrationTest {
     static void main() {
 
         var key = System.getenv("GOOGLE_API_KEY");
